@@ -16,16 +16,16 @@ for (let i = 1; i <= n; i++) {
 
 // task #2
 
-// let n = 10;
-// let i = 0;
-// let j = 0;
-// let a = 0;
+let n = 10;
+let i = 0;
+let j = 0;
+let a = 0;
 
-// for (i = (n / 2); i <= n; i = i + 1) {
-//     for (j = 2; j <= n; j = j * 2) {
-//         a = a + n / 2;
-//     }
-// }
+for (i = (n / 2); i <= n; i = i + 1) {
+    for (j = 2; j <= n; j = j * 2) {
+        a = a + n / 2;
+    }
+}
 
 // O(n log n).
 
@@ -33,15 +33,15 @@ for (let i = 1; i <= n; i++) {
 
 // task #3
 
-// let n = 5;
-// let a = 0;
+let n = 5;
+let a = 0;
 
-// for (let i = 0; i < n; i = i + 1) {
-//     for (let j = n; j > i; j = j - 1) {
-//         a = a + i + j;
-//     }
-// }
-// return a;
+for (let i = 0; i < n; i ++) {
+    for (let j = n; j > i; j = j - 1) {
+        a = a + i + j;
+    }
+}
+return a;
 
 
 // O(n ^ 2).
