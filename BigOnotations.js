@@ -17,18 +17,11 @@ for (let i = 1; i <= n; i++) {
 
 // task #2
 
-<<<<<<< HEAD
 
 // let n = 10;
 // let i = 0;
 // let j = 0;
 // let a = 0;
-=======
-let n = 10;
-let i = 0;
-let j = 0;
-let a = 0;
->>>>>>> 19bbdf684f3d431b93412aa89c2a66acbb7970de
 
 for (i = (n / 2); i <= n; i = i + 1) {
     for (j = 2; j <= n; j = j * 2) {
