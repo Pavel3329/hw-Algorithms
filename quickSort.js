@@ -1,4 +1,5 @@
 
+// в порядке убывания значений их элементов.
 
 function swap(array, first, second) {
     let temp = array[first];
@@ -43,7 +44,7 @@ console.log(arr1);
 
 
 
-
+// в качестве опорного элемента средний элемент массива.
 
 function swap(array, first, second) {
     let temp = array[first];
@@ -90,6 +91,7 @@ console.log(arr2); // [7, 6, 5, 4, 2, 1, 0, -2, -4]
 // .........................................................
 
 
+// Quick sort -Итерационный подход.
 
 function swap(array, first, second) {
     let temp = array[first];
