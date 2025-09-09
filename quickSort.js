@@ -1,5 +1,5 @@
 
-// в порядке убывания значений их элементов.
+//quickSort в порядке убывания значений их элементов.
 
 function swap(array, first, second) {
     let temp = array[first];
@@ -44,7 +44,7 @@ console.log(arr1);
 
 
 
-// в качестве опорного элемента средний элемент массива.
+//quickSort в качестве опорного элемента средний элемент массива.
 
 function swap(array, first, second) {
     let temp = array[first];
