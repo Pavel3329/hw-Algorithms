@@ -56,19 +56,19 @@ class DynamicArray {
         this.removeAt(0);
     }
 
+    
     // Удаляет элемент по индексу
     removeAt(index) {
         if (index < 0 || index >= this.count) {
             return;
-        }
-        
+        }        
         for (let i = index; i < this.count - 1; i++) {
             this.array[i] = this.array[i + 1];
         }
-        
         this.array[this.count - 1] = undefined;
         this.count--;
     }
+
 
     // Удаляет все элементы
     clean() {
